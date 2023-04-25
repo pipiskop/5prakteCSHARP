@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="KARTINKI\funny.png" />
+    <None Remove="KARTINKI\hugy.png" />
+    <None Remove="KARTINKI\kaif.png" />
+    <None Remove="KARTINKI\nose.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="KARTINKI\funny.png" />
+    <Resource Include="KARTINKI\hugy.png" />
+    <Resource Include="KARTINKI\kaif.png" />
+    <Resource Include="KARTINKI\nose.png" />
+
+  </ItemGroup>
+
+</Project>
